@@ -56,9 +56,9 @@ void loop() {
     if(key == '*'){//what to do when user submits their answer
       if(input==decimal){//if user enters the right decimal answer
         Serial.println("\nYou got it!");
-        digitalWrite(green, HIGH);
+        digitalWrite(green, HIGH);//will flash the green LED as a success indicator
         delay(2000);
-        digitalWrite(green, LOW);
+        digitalWrite(green, LOW);//turns off the green LED after 2 seconds
 
         //start over with new binary
         Serial.println("What number is this in decimal?");
@@ -70,7 +70,7 @@ void loop() {
       else{
         input="";//reset their input
         Serial.println("\nYou didn't get it :( Try again");
-        digitalWrite(red, HIGH);
+        digitalWrite(red, HIGH);//flashes the red LED showing that the input was incorrect
         delay(2000);
         digitalWrite(red, LOW);
       }
