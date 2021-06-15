@@ -1,5 +1,5 @@
 //Author: Emil
-//Description: Exercise to help you translate from unsigned binary to decimal
+//Description: Game to help you translate from unsigned binary to decimal
 
 #include <Keypad.h>
 
