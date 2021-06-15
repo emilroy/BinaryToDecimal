@@ -11,3 +11,5 @@ x11 Jumper Wires
 # Pictures
 How It Looks on the Serial Monitor
 ![SerialMonitor-Screenshot](SerialMonitorPreview.JPG)
+My Setup
+![Setup](BinaryGameSetup.JPG)
