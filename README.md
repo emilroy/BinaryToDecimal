@@ -1,5 +1,6 @@
 # BinaryToDecimal
 Game on Arduino platform to help you convert from a 4 bit unsigned binary number to decimal
+You will need to open up the Serial Monitor to view the numbers
 # Supplies
 This project needs:   
 x1 Arduino Mega 2560 (though you should be able to change this)  
