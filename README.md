@@ -8,3 +8,6 @@ x1 Membrane Keypad/Switch Module
 x2 LEDs(One green and one red)  
 x2 220 Ohm Resistors  
 x11 Jumper Wires  
+# Pictures
+How It Looks on the Serial Monitor
+![SerialMonitor-Screenshot](SerialMonitorPreview.jpg)
