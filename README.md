@@ -10,4 +10,4 @@ x2 220 Ohm Resistors
 x11 Jumper Wires  
 # Pictures
 How It Looks on the Serial Monitor
-![SerialMonitor-Screenshot](SerialMonitorPreview.jpg)
+![SerialMonitor-Screenshot](SerialMonitorPreview.JPG)
