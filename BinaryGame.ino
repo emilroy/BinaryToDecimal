@@ -4,7 +4,7 @@
 #include <Keypad.h>
 
 //prototyping the functions
-String randBinary(int n);
+String randBinary(int bits);
 String convertToDecimal(int bin);
 
 const byte ROWS = 4; //four rows
@@ -85,14 +85,14 @@ void loop() {
 
 /*randBinary function===========================================================
  * Decription: Creates randomly generated unsigned binary with n bits
- * Paramaters: int n - the number of bits the binary is going to be
+ * Paramaters: int bits - the number of bits the binary is going to be
  * Return: binary - returns the binary number as a string
  */
-String randBinary(int n){
+String randBinary(int bits){
     
    String binary = "";
 
-   for (int i = 0; i < n; i++) {
+   for (int i = 0; i < bits; i++) {
        int x = random()%2;
        binary += String(x);
    }
